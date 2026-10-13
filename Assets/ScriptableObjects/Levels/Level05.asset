@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4626a54e19105b24e88e08abf90699ec, type: 3}
+  m_Name: Level05
+  m_EditorClassIdentifier: Assembly-CSharp::Oath.LevelConfig
+  levelIndex: 5
+  title: "\xC1nh S\xE1ng Thu\u1ED9c V\u1EC1 T\u1EA5t C\u1EA3"
+  location: "Qu\u1EA3ng tr\u01B0\u1EDDng B\xECnh Minh"
+  description: "Tr\u1EADn chi\u1EBFn cu\u1ED1i c\xF9ng ch\u1ED1ng \u0111\u1ED9i qu\xE2n tinh nhu\u1EC7 c\u1EE7a Veyr v\xE0 qu\xE1i th\xFA Chimera. Gi\u1EEF v\u1EEFng tr\u01B0\u1EDBc khi Tr\xE1i Tim B\xECnh Minh s\u1EE5p \u0111\u1ED5."
+  objective: "\u0110\xE1nh b\u1EA1i \u0111\u1ED9i qu\xE2n c\u1EE7a Veyr"
+  sceneName: 14_Level05
+  intro:
+  - speaker: "K\u1EC3 chuy\u1EC7n"
+    text: "Tr\xE1i Tim B\xECnh Minh ch\u1EADp ch\u1EDDn. Nh\u1EEFng v\u1EBFt n\u1EE9t \xE1nh s\xE1ng lan kh\u1EAFp qu\u1EA3ng tr\u01B0\u1EDDng."
+  - speaker: Veyr
+    text: "Kael! H\xE3y nh\xECn \u0111i \u2014 tinh th\u1EC3 s\u1EAFp v\u1EE1. N\u1EBFu ta kh\xF4ng chi\u1EBFm \u0111\u01B0\u1EE3c n\xF3, kh\xF4ng ai \u0111\u01B0\u1EE3c h\u01B0\u1EDFng c\u1EA3!"
+  - speaker: Kael
+    text: "N\u1EBFu n\xF3 v\u1EE1, c\u1EA3 qu\u1EA7n \u0111\u1EA3o s\u1EBD ch\xECm v\xE0o b\xF3ng t\u1ED1i, k\u1EC3 c\u1EA3 qu\xEA h\u01B0\u01A1ng c\u1EE7a \xF4ng. Ta s\u1EBD ch\u1EB7n \xF4ng l\u1EA1i, r\u1ED3i ch\xFAng ta s\u1EBD c\xF9ng s\u1EEDa ch\u1EEFa sai l\u1EA7m n\xE0y."
+  - speaker: Mira
+    text: "Ba h\u01B0\u1EDBng t\u1EA5n c\xF4ng, v\xE0 trinh s\xE1t th\u1EA5y b\xF3ng m\u1ED9t con Chimera kh\u1ED5ng l\u1ED3. \u0110\xE2y l\xE0 tr\u1EADn cu\u1ED1i c\xF9ng \u2014 d\u1ED1c to\xE0n l\u1EF1c!"
+  outro:
+  - speaker: Veyr
+    text: "Ta\u2026 \u0111\xE3 thua. Nh\u01B0ng tinh th\u1EC3\u2026"
+  - speaker: Kael
+    text: "Ch\u01B0a qu\xE1 mu\u1ED9n. H\xE3y gi\xFAp ch\xFAng ta k\xEDch ho\u1EA1t l\u1EA1i c\xE1c \u0111i\u1EC3m d\u1EABn truy\u1EC1n."
+  tutorialHints:
+  - "<b>T\u01B0\u1EDBng Veyr</b> v\xE0 <b>Chimera</b> xu\u1EA5t hi\u1EC7n \u1EDF \u0111\u1EE3t cu\u1ED1i \u2014 t\u1EADp trung to\xE0n qu\xE2n!"
+  - "\u0110\u1EEBng qu\xEAn tuy\u1EC3n Th\u1EE3 v\xE0 x\xE2y Nh\xE0 \u1EDF \u0111\u1EC3 m\u1EDF r\u1ED9ng qu\xE2n s\u1ED1."
+  map: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~======S~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~..==.............~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~..##..==................b~~~~~~~~~~~~w~
+
+    ~~w~~~~~~~~~.........==.^^^^^^^...T..T.....~~~~~~~~~~~
+
+    ~~~~....T....T.......==.^^^^^^^......o...T........~~~~
+
+    ~~~~..T..............==.^^^^^^^............o.T....~~~~
+
+    ~~~~........b....o...==.^^^^^^^...................~~~~
+
+    ~~~~.T...........b...==...........................~~~~
+
+    ~~~~...$o.........##.==............================S~~
+
+    ~~~~................o==.##...o.....=================~~
+
+    ~~~~T........b.tt....==........##..==##............~~~
+
+    ~~~........C.........==............==..........bT...~~
+
+    ~~~.........=========================.^^^^.......b..~~
+
+    ~~~.T.......========================..^^^^..........~~
+
+    ~~~..............................==...^^^^......T...~~
+
+    ~~~............tt.......##...##..==...^^^^....##....~~
+
+    ~~~.bT...........................==.................~~
+
+    ~~~....K.........................=============......~~
+
+    ~~~~.............o...............=============.....~~~
+
+    ~~~~.T.....$................................=======S~~
+
+    ~~~~.......................b..............b.========~~
+
+    ~~~~....T..........$....^^^^^^^.........##........~~~~
+
+    ~~~~....................^^^^^^^................To.~~~~
+
+    ~w~~.......T......b.....^^^^^^^...................~~~~
+
+    ~~~~~~~~~~....T............................Tb~~~~~~~~~
+
+    ~~~~~~~~~~~~...............b.....T....T....~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~.........................~~~~~~~~~~~~w~
+
+    ~~~~~~~~~~~~~~~~~~~.................~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+  groundColor: 3
+  roadColor: 4
+  startWood: 360
+  startGold: 360
+  startPawns: 4
+  basePopulation: 16
+  castleHp: 3000
+  allowTowerUpgrade: 1
+  towers: 0000000001000000020000000300000004000000i
+  maxTowerLevel: 3
+  endless: 0
+  protectVillage: 0
+  villageMinAlive: 1
+  firstWavePrep: 55
+  betweenWavePrep: 28
+  waves:
+  - name: "Ti\u1EC1n qu\xE2n C\u1EDD \u0110\u1ECF"
+    bonusGold: 70
+    groups:
+    - enemy: red_warrior
+      count: 8
+      spawn: 0
+      delay: 0
+      interval: 1.3
+    - enemy: red_archer
+      count: 5
+      spawn: 1
+      delay: 3
+      interval: 1.6
+    - enemy: goblin_green
+      count: 8
+      spawn: 2
+      delay: 6
+      interval: 0.9
+  - name: "L\u1EEDa v\xE0 \u0111\u1ED9c"
+    bonusGold: 80
+    groups:
+    - enemy: slime_fire
+      count: 8
+      spawn: 1
+      delay: 0
+      interval: 1.1
+    - enemy: slime_fire_stone
+      count: 3
+      spawn: 0
+      delay: 3
+      interval: 2.5
+    - enemy: skull_poison
+      count: 6
+      spawn: 2
+      delay: 4
+      interval: 1.3
+    - enemy: skull_poison_archer
+      count: 4
+      spawn: 0
+      delay: 10
+      interval: 1.8
+  - name: "Qu\xE2n t\u1EA1p nham"
+    bonusGold: 90
+    groups:
+    - enemy: boar_elite
+      count: 2
+      spawn: 0
+      delay: 0
+      interval: 3
+    - enemy: duck_elite
+      count: 5
+      spawn: 1
+      delay: 2
+      interval: 1.3
+    - enemy: bomb
+      count: 3
+      spawn: 2
+      delay: 6
+      interval: 2.5
+    - enemy: eggplant
+      count: 3
+      spawn: 1
+      delay: 10
+      interval: 2
+    - enemy: red_lancer
+      count: 4
+      spawn: 0
+      delay: 12
+      interval: 1.8
+  - name: "Qu\xE1i th\xFA c\u1ED5 x\u01B0a"
+    bonusGold: 100
+    groups:
+    - enemy: fury
+      count: 3
+      spawn: 2
+      delay: 0
+      interval: 2.5
+    - enemy: centaur
+      count: 3
+      spawn: 0
+      delay: 3
+      interval: 2.8
+    - enemy: arachne
+      count: 1
+      spawn: 1
+      delay: 6
+      interval: 5
+    - enemy: hellhorse
+      count: 3
+      spawn: 1
+      delay: 12
+      interval: 2.5
+    - enemy: slime_fire_king
+      count: 1
+      spawn: 0
+      delay: 16
+      interval: 1
+  - name: "B\u1EE9c t\u01B0\u1EDDng th\xE9p"
+    bonusGold: 110
+    groups:
+    - enemy: lion
+      count: 1
+      spawn: 0
+      delay: 10
+      interval: 1
+    - enemy: red_lancer
+      count: 6
+      spawn: 1
+      delay: 0
+      interval: 1.6
+    - enemy: red_monk
+      count: 3
+      spawn: 1
+      delay: 6
+      interval: 2.8
+    - enemy: skull_poison_warrior
+      count: 4
+      spawn: 2
+      delay: 2
+      interval: 2
+    - enemy: wolf
+      count: 8
+      spawn: 0
+      delay: 4
+      interval: 0.9
+  - name: "\u0110\u1ED9i qu\xE2n tinh nhu\u1EC7 c\u1EE7a Veyr"
+    bonusGold: 0
+    groups:
+    - enemy: red_warrior
+      count: 8
+      spawn: 0
+      delay: 0
+      interval: 1.2
+    - enemy: red_archer
+      count: 5
+      spawn: 1
+      delay: 2
+      interval: 1.5
+    - enemy: red_lancer
+      count: 4
+      spawn: 2
+      delay: 4
+      interval: 1.8
+    - enemy: hellhorse
+      count: 3
+      spawn: 1
+      delay: 10
+      interval: 2.2
+    - enemy: fury
+      count: 2
+      spawn: 2
+      delay: 12
+      interval: 3
+    - enemy: veyr
+      count: 1
+      spawn: 0
+      delay: 12
+      interval: 1
+    - enemy: chimera
+      count: 1
+      spawn: 1
+      delay: 26
+      interval: 1

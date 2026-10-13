@@ -1,0 +1,1670 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abdad316e3555f44485eb7884236c470, type: 3}
+  m_Name: GameArt
+  m_EditorClassIdentifier: Assembly-CSharp::Oath.GameArt
+  font: {fileID: 12800000, guid: e9f48caee1e2a7c47bfc1741b9345065, type: 3}
+  sets:
+  - key: Tiny Swords/Units/Blue Units/Archer/Archer_Idle
+    frames:
+    - {fileID: 7257567913506708742, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+    - {fileID: -7989796299022447421, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+    - {fileID: 7725435616784934678, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+    - {fileID: -1293103732667120055, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+    - {fileID: 427913027731640163, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+    - {fileID: -9045297040117572726, guid: 72c22f22ea5e4488390ba536cd5ab98d, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Archer/Archer_Run
+    frames:
+    - {fileID: 8882666270506729424, guid: a2db8ff0b36884d3680f752d33764b12, type: 3}
+    - {fileID: 8418572898541717210, guid: a2db8ff0b36884d3680f752d33764b12, type: 3}
+    - {fileID: 4917221495796577052, guid: a2db8ff0b36884d3680f752d33764b12, type: 3}
+    - {fileID: 1313344751431586703, guid: a2db8ff0b36884d3680f752d33764b12, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Archer/Archer_Shoot
+    frames:
+    - {fileID: -3522987849309635434, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: 1796539565894229437, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: -6164423668334797513, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: 8855168420743222378, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: 8284549177786691415, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: -2689744893154487746, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: 500622343033487627, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+    - {fileID: 7309834836266252465, guid: aac0c2b0aef584db0a90373d4b7e99ae, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_Down_Attack
+    frames:
+    - {fileID: 704632438053712794, guid: 16d606f92b3e14969a958240569d4dcc, type: 3}
+    - {fileID: 3804270661726973974, guid: 16d606f92b3e14969a958240569d4dcc, type: 3}
+    - {fileID: -8774836977957818446, guid: 16d606f92b3e14969a958240569d4dcc, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_DownRight_Attack
+    frames:
+    - {fileID: 1761619492895743875, guid: bacd50e04b6444e00ba223b68b680cb3, type: 3}
+    - {fileID: -2961677195299870038, guid: bacd50e04b6444e00ba223b68b680cb3, type: 3}
+    - {fileID: -5698094106703109678, guid: bacd50e04b6444e00ba223b68b680cb3, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_Idle
+    frames:
+    - {fileID: -594197781322936934, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 455444515322244926, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 517828865657036009, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: -3032027852008287605, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: -5574184733968180747, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: -1753309511941541117, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 4863313082578348910, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: -5592250592134132327, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 2319514263577396720, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: -4102534018874827341, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 9164178780147294991, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+    - {fileID: 8611835898225032345, guid: 2307ce0d618cb4ea2be2cb2a4148cbde, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_Right_Attack
+    frames:
+    - {fileID: 6331980819534964110, guid: e9222978b50fc478bac2042c170d401a, type: 3}
+    - {fileID: 7232042838751349278, guid: e9222978b50fc478bac2042c170d401a, type: 3}
+    - {fileID: -4157329051755591257, guid: e9222978b50fc478bac2042c170d401a, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_Run
+    frames:
+    - {fileID: -8580444238127179786, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+    - {fileID: 828278362111410375, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+    - {fileID: -4153816518293905039, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+    - {fileID: 1456675321045083290, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+    - {fileID: -3942745417268178275, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+    - {fileID: -1776823346852784203, guid: ce378960746b14f2d830cac2b7d11921, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_Up_Attack
+    frames:
+    - {fileID: -1486743630280823639, guid: fe58c1206463e41038c8e61414f84d8e, type: 3}
+    - {fileID: -1198247047316955265, guid: fe58c1206463e41038c8e61414f84d8e, type: 3}
+    - {fileID: 6051932423378392712, guid: fe58c1206463e41038c8e61414f84d8e, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Lancer/Lancer_UpRight_Attack
+    frames:
+    - {fileID: 5676588645026460789, guid: 09fbf0334fc6944ce9b692899a86f104, type: 3}
+    - {fileID: 7574153149545624337, guid: 09fbf0334fc6944ce9b692899a86f104, type: 3}
+    - {fileID: 6233515880032540177, guid: 09fbf0334fc6944ce9b692899a86f104, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Monk/Heal
+    frames:
+    - {fileID: 2903848411162822477, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: -893675218100121079, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 2928916444087662039, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: -1398132742003509683, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 5238786112167760410, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: -2599149563224560162, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 5951998098815178954, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: -7882718956405584606, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 2725092365876084024, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 992378399082110112, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+    - {fileID: 2421232261252437877, guid: a182e0e943b8d43d28dd037a779558e8, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Monk/Idle
+    frames:
+    - {fileID: 4723107735738678597, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+    - {fileID: -7385789195546760866, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+    - {fileID: 3234629978573100161, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+    - {fileID: 6373048116405451881, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+    - {fileID: 7264182050183361747, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+    - {fileID: -2834552850196481573, guid: 7ba4178767e424c47b91888898a1fdc4, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Monk/Run
+    frames:
+    - {fileID: 4944230376442633554, guid: 38aaba693b195407d8ac56f98b202860, type: 3}
+    - {fileID: -2274363484027164459, guid: 38aaba693b195407d8ac56f98b202860, type: 3}
+    - {fileID: 8284087734974297348, guid: 38aaba693b195407d8ac56f98b202860, type: 3}
+    - {fileID: 5304202850863732263, guid: 38aaba693b195407d8ac56f98b202860, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Warrior/Warrior_Attack1
+    frames:
+    - {fileID: -3464697531994304634, guid: 7476f60a6f46a4dd0a8657b2d8780e3e, type: 3}
+    - {fileID: 8738852634765236386, guid: 7476f60a6f46a4dd0a8657b2d8780e3e, type: 3}
+    - {fileID: 1435813858662126931, guid: 7476f60a6f46a4dd0a8657b2d8780e3e, type: 3}
+    - {fileID: 2647078634671427691, guid: 7476f60a6f46a4dd0a8657b2d8780e3e, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Warrior/Warrior_Attack2
+    frames:
+    - {fileID: -3424596684861233237, guid: 1a4bb483943d54c1d99bfdddf89fcb3a, type: 3}
+    - {fileID: 2678504405838677843, guid: 1a4bb483943d54c1d99bfdddf89fcb3a, type: 3}
+    - {fileID: 3934996648058365938, guid: 1a4bb483943d54c1d99bfdddf89fcb3a, type: 3}
+    - {fileID: 747109334637763536, guid: 1a4bb483943d54c1d99bfdddf89fcb3a, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Warrior/Warrior_Idle
+    frames:
+    - {fileID: 7384290322352760091, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: 5558041129755138300, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: 5494728702781700201, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: 855971943943930739, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: 8590257050535953886, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: -1175184007495930954, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: -4675935811743254547, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+    - {fileID: 1839488653993705794, guid: 63555c658eb534f48acbb1ba682fbec3, type: 3}
+  - key: Tiny Swords/Units/Blue Units/Warrior/Warrior_Run
+    frames:
+    - {fileID: -432731726981308715, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+    - {fileID: 8551124423323264409, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+    - {fileID: -8600065048725663906, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+    - {fileID: 3241423924572654580, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+    - {fileID: -5828329696384875631, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+    - {fileID: 2022560608615539102, guid: d68bc01307d42455d93569208f8296bc, type: 3}
+  - key: Tiny Swords/Units/Red Units/Archer/Archer_Idle
+    frames:
+    - {fileID: 7257567913506708742, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+    - {fileID: -7989796299022447421, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+    - {fileID: 7725435616784934678, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+    - {fileID: -1293103732667120055, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+    - {fileID: 427913027731640163, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+    - {fileID: -9045297040117572726, guid: 277a50fd24135436398811e3293b2aa2, type: 3}
+  - key: Tiny Swords/Units/Red Units/Archer/Archer_Run
+    frames:
+    - {fileID: 8882666270506729424, guid: 059e4d177853e423d9ca4440d4a763e5, type: 3}
+    - {fileID: 8418572898541717210, guid: 059e4d177853e423d9ca4440d4a763e5, type: 3}
+    - {fileID: 4917221495796577052, guid: 059e4d177853e423d9ca4440d4a763e5, type: 3}
+    - {fileID: 1313344751431586703, guid: 059e4d177853e423d9ca4440d4a763e5, type: 3}
+  - key: Tiny Swords/Units/Red Units/Archer/Archer_Shoot
+    frames:
+    - {fileID: -3522987849309635434, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: 1796539565894229437, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: -6164423668334797513, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: 8855168420743222378, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: 8284549177786691415, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: -2689744893154487746, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: 500622343033487627, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+    - {fileID: 7309834836266252465, guid: 750bc14c1e537452486c5efb15da4654, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_Down_Attack
+    frames:
+    - {fileID: 704632438053712794, guid: 2670d0d1e62684223bf3cb42dfb66795, type: 3}
+    - {fileID: 3804270661726973974, guid: 2670d0d1e62684223bf3cb42dfb66795, type: 3}
+    - {fileID: -8774836977957818446, guid: 2670d0d1e62684223bf3cb42dfb66795, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_DownRight_Attack
+    frames:
+    - {fileID: 1761619492895743875, guid: 5f696a8043d264cb68e711682f959900, type: 3}
+    - {fileID: -2961677195299870038, guid: 5f696a8043d264cb68e711682f959900, type: 3}
+    - {fileID: -5698094106703109678, guid: 5f696a8043d264cb68e711682f959900, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_Idle
+    frames:
+    - {fileID: -594197781322936934, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 455444515322244926, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 517828865657036009, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: -3032027852008287605, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: -5574184733968180747, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: -1753309511941541117, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 4863313082578348910, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: -5592250592134132327, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 2319514263577396720, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: -4102534018874827341, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 9164178780147294991, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+    - {fileID: 8611835898225032345, guid: fba04cf817a7246ec99f9c85cf9ef600, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_Right_Attack
+    frames:
+    - {fileID: 6331980819534964110, guid: 976f26335a5f44facb1b8abf1fc7f25e, type: 3}
+    - {fileID: 7232042838751349278, guid: 976f26335a5f44facb1b8abf1fc7f25e, type: 3}
+    - {fileID: -4157329051755591257, guid: 976f26335a5f44facb1b8abf1fc7f25e, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_Run
+    frames:
+    - {fileID: -8580444238127179786, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+    - {fileID: 828278362111410375, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+    - {fileID: -4153816518293905039, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+    - {fileID: 1456675321045083290, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+    - {fileID: -3942745417268178275, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+    - {fileID: -1776823346852784203, guid: 32f41e1fac48141ec95ad92c83bff512, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_Up_Attack
+    frames:
+    - {fileID: -1486743630280823639, guid: c68787be7f31846a08cf0110f4debff8, type: 3}
+    - {fileID: -1198247047316955265, guid: c68787be7f31846a08cf0110f4debff8, type: 3}
+    - {fileID: 6051932423378392712, guid: c68787be7f31846a08cf0110f4debff8, type: 3}
+  - key: Tiny Swords/Units/Red Units/Lancer/Lancer_UpRight_Attack
+    frames:
+    - {fileID: 5676588645026460789, guid: fa70c7f04eedb484a9a301f934a0ce9d, type: 3}
+    - {fileID: 7574153149545624337, guid: fa70c7f04eedb484a9a301f934a0ce9d, type: 3}
+    - {fileID: 6233515880032540177, guid: fa70c7f04eedb484a9a301f934a0ce9d, type: 3}
+  - key: Tiny Swords/Units/Red Units/Monk/Heal
+    frames:
+    - {fileID: 2903848411162822477, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: -893675218100121079, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 2928916444087662039, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: -1398132742003509683, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 5238786112167760410, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: -2599149563224560162, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 5951998098815178954, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: -7882718956405584606, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 2725092365876084024, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 992378399082110112, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+    - {fileID: 2421232261252437877, guid: b4fc8029638e545698c1d10bb521aaee, type: 3}
+  - key: Tiny Swords/Units/Red Units/Monk/Idle
+    frames:
+    - {fileID: 4723107735738678597, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+    - {fileID: -7385789195546760866, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+    - {fileID: 3234629978573100161, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+    - {fileID: 6373048116405451881, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+    - {fileID: 7264182050183361747, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+    - {fileID: -2834552850196481573, guid: 088c72b8c44664ef7ba139bf42990072, type: 3}
+  - key: Tiny Swords/Units/Red Units/Monk/Run
+    frames:
+    - {fileID: 4944230376442633554, guid: c4149ffdf40a0428da51a00ee56a7aa0, type: 3}
+    - {fileID: -2274363484027164459, guid: c4149ffdf40a0428da51a00ee56a7aa0, type: 3}
+    - {fileID: 8284087734974297348, guid: c4149ffdf40a0428da51a00ee56a7aa0, type: 3}
+    - {fileID: 5304202850863732263, guid: c4149ffdf40a0428da51a00ee56a7aa0, type: 3}
+  - key: Tiny Swords/Units/Red Units/Warrior/Warrior_Attack1
+    frames:
+    - {fileID: -3464697531994304634, guid: c5a89d1d641de4f9a94ddbca13c06881, type: 3}
+    - {fileID: 8738852634765236386, guid: c5a89d1d641de4f9a94ddbca13c06881, type: 3}
+    - {fileID: 1435813858662126931, guid: c5a89d1d641de4f9a94ddbca13c06881, type: 3}
+    - {fileID: 2647078634671427691, guid: c5a89d1d641de4f9a94ddbca13c06881, type: 3}
+  - key: Tiny Swords/Units/Red Units/Warrior/Warrior_Attack2
+    frames:
+    - {fileID: -3424596684861233237, guid: 6f8ff723d07324cb097b6509d12dbdfa, type: 3}
+    - {fileID: 2678504405838677843, guid: 6f8ff723d07324cb097b6509d12dbdfa, type: 3}
+    - {fileID: 3934996648058365938, guid: 6f8ff723d07324cb097b6509d12dbdfa, type: 3}
+    - {fileID: 747109334637763536, guid: 6f8ff723d07324cb097b6509d12dbdfa, type: 3}
+  - key: Tiny Swords/Units/Red Units/Warrior/Warrior_Idle
+    frames:
+    - {fileID: 7384290322352760091, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: 5558041129755138300, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: 5494728702781700201, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: 855971943943930739, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: 8590257050535953886, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: -1175184007495930954, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: -4675935811743254547, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+    - {fileID: 1839488653993705794, guid: f9330e5de94a14c6ba6583d83d65ef08, type: 3}
+  - key: Tiny Swords/Units/Red Units/Warrior/Warrior_Run
+    frames:
+    - {fileID: -432731726981308715, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+    - {fileID: 8551124423323264409, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+    - {fileID: -8600065048725663906, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+    - {fileID: 3241423924572654580, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+    - {fileID: -5828329696384875631, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+    - {fileID: 2022560608615539102, guid: 6b2e019703e7240758b08a18f0d6c3e7, type: 3}
+  - key: Tiny Swords/Units/Extra/Arrow/Arrow
+    frames:
+    - {fileID: 21300000, guid: c272e6d3dde6e4ad58af98df64cbaf46, type: 3}
+  - key: Tiny Swords/Units/Extra/Heal Effect/Heal_Effect
+    frames:
+    - {fileID: -7024647307699674525, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 5961021751012434444, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 4245197819410898624, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: -4178271230150291121, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 8633989232224805090, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 3027786467292887404, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: -6516564901735614582, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 5558680185361507994, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 7906872027508097994, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: 1076212263093357779, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+    - {fileID: -6975476344276479993, guid: 104b54f3748eb417ea1085bf0eafaf1f, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Axe
+    frames:
+    - {fileID: -1267550136445687439, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 6151619871726895459, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: -6327378166219303843, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 5373139676217456927, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 4097080491917255687, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 2928054160323077273, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 5492190999761597152, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+    - {fileID: 7587918059113247910, guid: dfb7f37ce161b4a46b501b8d53d6a83a, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Gold
+    frames:
+    - {fileID: -1118780227154915261, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: 6775793388062278142, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: -7136424255578481246, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: -5655606796119736812, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: -7834617139221469286, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: 8638547008626868264, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: -6996343520481393701, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+    - {fileID: 7421266744083835555, guid: 0ded4e71abe454e3ba6fe73f74f24e0b, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Hammer
+    frames:
+    - {fileID: -1438690674706414118, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: -6769589693572739235, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: 7671773035475251030, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: -3585113143308330294, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: -8036923346196360993, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: -2835223209331938337, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: 6479204062385371767, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+    - {fileID: -8804233758041304971, guid: 1a7a89a06ac8b4cfe9d873208bffe54d, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Knife
+    frames:
+    - {fileID: -8426932590203072280, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: -7229173609508137377, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: -7005977519903919691, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: -6993651681036626996, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: 6905167437935120088, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: -9195265649778357946, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: 1213044548952237618, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+    - {fileID: 5529155541571196464, guid: c47a96ea76a32479fadb0e867cd08899, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Meat
+    frames:
+    - {fileID: -6204943402206193772, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: -3129909716869165955, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: -7235056554443838409, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: -4440482267132465948, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: -1033137359544254729, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: 4081414510747251323, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: 735826692581283802, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+    - {fileID: -4296820450808306973, guid: 7d2bf3d76e4ef4acfbb226190dca1544, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Pickaxe
+    frames:
+    - {fileID: 222377792815555279, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: 4063784870428184418, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: 7764703495603305711, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: -4767586467243673879, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: 4554453384812065433, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: 2959871830974456573, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: 9052662415938520062, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+    - {fileID: -3749376832578831336, guid: 89cdb6d504f254ad3909459b83e98a6b, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle Wood
+    frames:
+    - {fileID: -5085043012632821289, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: -5994379859638548071, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: -823819071035115226, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: -833154056232300151, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: 108493789643531465, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: -5847663375154164504, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: 6887791974147412032, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+    - {fileID: 5880147983386880918, guid: cc848744b510a43769ea7c75daeff95c, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Idle
+    frames:
+    - {fileID: -5948806968594788206, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: -3890830800090718979, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: 5745166470278179504, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: -6422090140873712968, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: 7767364186329714561, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: -5623599378145798578, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: -5368615170522500559, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+    - {fileID: 5475363174786605065, guid: 4c87a6310f87c47f1b785669e6191f00, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Interact Axe
+    frames:
+    - {fileID: 4690516624981630074, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+    - {fileID: 4820607410664315775, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+    - {fileID: 499994813579836661, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+    - {fileID: 5281750946635039065, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+    - {fileID: 6324080537177615244, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+    - {fileID: 3960961710712497688, guid: 0df49cd343f6c45efaa2c0194f0c502f, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Interact Hammer
+    frames:
+    - {fileID: -1241957522165214808, guid: 8114b621d8ab44ee7bea7dd71516c390, type: 3}
+    - {fileID: -4152304209030961917, guid: 8114b621d8ab44ee7bea7dd71516c390, type: 3}
+    - {fileID: -7438993905676777009, guid: 8114b621d8ab44ee7bea7dd71516c390, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Interact Knife
+    frames:
+    - {fileID: -7630237011073246913, guid: 9b8c21015ffe64c5d94a39b3bf01dd16, type: 3}
+    - {fileID: 1537740210692759063, guid: 9b8c21015ffe64c5d94a39b3bf01dd16, type: 3}
+    - {fileID: 8846431254335609180, guid: 9b8c21015ffe64c5d94a39b3bf01dd16, type: 3}
+    - {fileID: -2719170756685289180, guid: 9b8c21015ffe64c5d94a39b3bf01dd16, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Interact Pickaxe
+    frames:
+    - {fileID: 3610887024250832725, guid: efb113e254cec49928b296f124022e8d, type: 3}
+    - {fileID: 3041927701802748533, guid: efb113e254cec49928b296f124022e8d, type: 3}
+    - {fileID: -7342292582612877463, guid: efb113e254cec49928b296f124022e8d, type: 3}
+    - {fileID: -7587094757669406146, guid: efb113e254cec49928b296f124022e8d, type: 3}
+    - {fileID: 8139064838421837713, guid: efb113e254cec49928b296f124022e8d, type: 3}
+    - {fileID: 4547151455874041825, guid: efb113e254cec49928b296f124022e8d, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Axe
+    frames:
+    - {fileID: -958176161520186388, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+    - {fileID: 6045000162924369486, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+    - {fileID: 3947637296732879053, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+    - {fileID: 8699398848657469395, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+    - {fileID: -691361357135129492, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+    - {fileID: -2113163453966986137, guid: 7fabb4e4fbf404a4ca51c2b955974aaa, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Gold
+    frames:
+    - {fileID: 2932321786322880735, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+    - {fileID: 7068027714915083470, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+    - {fileID: 8904474459742203427, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+    - {fileID: 1725903354682961715, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+    - {fileID: -1169541222142315381, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+    - {fileID: 3329887467678335695, guid: 7252edec0f69847718a6bca076e76130, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Hammer
+    frames:
+    - {fileID: 412502240495993343, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+    - {fileID: 1823362498776647365, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+    - {fileID: 4504378021881162980, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+    - {fileID: 462247125334077918, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+    - {fileID: -6695372163347326071, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+    - {fileID: 6584106843579084176, guid: 67c795b079b314b10b09a0860addf4e6, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Knife
+    frames:
+    - {fileID: 4710687688261626355, guid: 3628ef28021454519934c163299826f6, type: 3}
+    - {fileID: -4087458063697255612, guid: 3628ef28021454519934c163299826f6, type: 3}
+    - {fileID: -1524242275452403800, guid: 3628ef28021454519934c163299826f6, type: 3}
+    - {fileID: -4016700092613472598, guid: 3628ef28021454519934c163299826f6, type: 3}
+    - {fileID: -1800003385275919816, guid: 3628ef28021454519934c163299826f6, type: 3}
+    - {fileID: -914304951817690999, guid: 3628ef28021454519934c163299826f6, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Meat
+    frames:
+    - {fileID: 5799779341347459245, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+    - {fileID: 1253374708327996498, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+    - {fileID: 1984608769305701924, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+    - {fileID: -3474626165232038075, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+    - {fileID: 4511737243138824817, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+    - {fileID: 5941728732924915974, guid: e9a634202eade4771bc4e747ccb45200, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Pickaxe
+    frames:
+    - {fileID: -1348428937980183284, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+    - {fileID: -7533202399423498502, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+    - {fileID: -3305531190619353509, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+    - {fileID: 7770006171748745673, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+    - {fileID: -2373823074695700615, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+    - {fileID: 309191157347331178, guid: 0e4bc3f71c0ef41b7871c381f88b2c86, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run Wood
+    frames:
+    - {fileID: -5097743339310255245, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+    - {fileID: -3302185561732527826, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+    - {fileID: -4551020046694785269, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+    - {fileID: 380357489539277280, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+    - {fileID: 7805829573303494951, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+    - {fileID: -2686608414429815781, guid: a6e24f6ffcabb4334b16631a345b3b20, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Pawn/Blue Pawn/Pawn_Run
+    frames:
+    - {fileID: 3948441758208983171, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+    - {fileID: 2305471599192555470, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+    - {fileID: -7094969777387991619, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+    - {fileID: -4352081444224747174, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+    - {fileID: 9036425764018463110, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+    - {fileID: -5774403828569277791, guid: 4f48e4ab7a963447da8d6a57e0d3fb72, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Stump 1
+    frames:
+    - {fileID: 21300000, guid: 7951e8106b28e48e0b11aed17a9978d1, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Stump 2
+    frames:
+    - {fileID: 21300000, guid: e69d4329a5c024684ba584f285d76c98, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Stump 3
+    frames:
+    - {fileID: 21300000, guid: 8cc2c4a44620a491ca2059a03ec22ae5, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Stump 4
+    frames:
+    - {fileID: 21300000, guid: 85fedf14a36494c44b6f7dcd3a0b8bc2, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Tree1
+    frames:
+    - {fileID: 6215267202064938543, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: -5597570988121575489, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: 542723386359573843, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: 3940409226945107963, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: -9130447484784962851, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: 9050774589780060452, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: -4024382073413787549, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+    - {fileID: 8143098205146776124, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Tree2
+    frames:
+    - {fileID: 5354429476588687777, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: -6125760586055823200, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: -7736278973484575046, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: 5754370365768383467, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: -504913126133263148, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: -8604352155094888535, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: 219539661368650802, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+    - {fileID: -8376323821268461911, guid: 3b3745d65073b4ba1a9da4c2861fd353, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Tree3
+    frames:
+    - {fileID: -1922301785, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: -1013242384, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: 1692409792, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: 1482489678, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: 284301264, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: -418281257, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: 946590440, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+    - {fileID: 432765345, guid: 9606510127d3043a5bbdf980402c1628, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Trees/Tree4
+    frames:
+    - {fileID: 2052243219, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: 1677866310, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: 1870189122, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: -1049181595, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: -1881322205, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: 616033827, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: 1233845226, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+    - {fileID: -1890156316, guid: 7649734177ed34f78a801612ab90a3a2, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Wood/Wood Resource/Wood Resource
+    frames:
+    - {fileID: 21300000, guid: a1c1e555a725e4b15b512516e3dec87c, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 1
+    frames:
+    - {fileID: 21300000, guid: 67d30015e15234b60a2097cd3001c423, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 2
+    frames:
+    - {fileID: 21300000, guid: 79eb76530889a4283aab87921fff68cf, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 3
+    frames:
+    - {fileID: 21300000, guid: 08b428e680bf14435ad32f565d39377a, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 4
+    frames:
+    - {fileID: 21300000, guid: 9f6c33a01ddca41df86e012fd10f4d76, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 5
+    frames:
+    - {fileID: 21300000, guid: 099a3e9fd39fd40efa61fb2fa8acf5f6, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Gold/Gold Stones/Gold Stone 6
+    frames:
+    - {fileID: 21300000, guid: 5a4aa1c2f2ac84011bdacd0445d7cf5b, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Meat/Sheep/Sheep_Grass
+    frames:
+    - {fileID: 2319856288088244163, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -3562576923617104382, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -7349116212589438002, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -4662078214707794950, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -6617081139439527395, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -6189691028752884913, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: 7296908222152865420, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -2352777100355612254, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -3659949348702606643, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: 5630160346097760845, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: 5439255145328125195, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+    - {fileID: -8736350461500244166, guid: 56645d102e97241eeb6d01ca2987467d, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Meat/Sheep/Sheep_Idle
+    frames:
+    - {fileID: -6879290243380990860, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+    - {fileID: 6416055995298698269, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+    - {fileID: -1385137418063276101, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+    - {fileID: -6629803274111058658, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+    - {fileID: -8493763510348472219, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+    - {fileID: 6094259631630437551, guid: efdf568727e0b4919a5e88e2e9d1f93b, type: 3}
+  - key: Tiny Swords/Pawn and Resources/Meat/Sheep/Sheep_Move
+    frames:
+    - {fileID: 4671501159646219437, guid: 856b7dfa4baa342ae8083080d963531b, type: 3}
+    - {fileID: -6465609930013442711, guid: 856b7dfa4baa342ae8083080d963531b, type: 3}
+    - {fileID: 8883252912783768555, guid: 856b7dfa4baa342ae8083080d963531b, type: 3}
+    - {fileID: -6556170278312625396, guid: 856b7dfa4baa342ae8083080d963531b, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/Archery
+    frames:
+    - {fileID: 21300000, guid: 2bb7266a2b9e4494db34c60ba04a19a4, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/Barracks
+    frames:
+    - {fileID: 21300000, guid: 4140465d2d71b4a6a83a1be32f0a9880, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/Castle
+    frames:
+    - {fileID: 21300000, guid: 5fef2d88b09824faba4be40a870c347e, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/House1
+    frames:
+    - {fileID: 21300000, guid: f64d3993d34d4410e83e766d40059c1b, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/House2
+    frames:
+    - {fileID: 21300000, guid: c3dedc0ecab4047cc891892591447655, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/House3
+    frames:
+    - {fileID: 21300000, guid: 96ad664d87f2f48b7babf2f621531ae5, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/Monastery
+    frames:
+    - {fileID: 21300000, guid: a45aff6aa2c5d4d5f879c10f0231ba12, type: 3}
+  - key: Tiny Swords/Buildings/Blue Buildings/Tower
+    frames:
+    - {fileID: 21300000, guid: 9150ff9a3f88646ddaf1ed327afa1315, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/Archery
+    frames:
+    - {fileID: 21300000, guid: 1d779a0d7152745999fafde02345208d, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/Barracks
+    frames:
+    - {fileID: 21300000, guid: 2c44e74a256b04ce7961e81d0cae29e5, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/Castle
+    frames:
+    - {fileID: 21300000, guid: ebc3f75c6f0fa49c38b57b0d8b13968e, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/House1
+    frames:
+    - {fileID: 21300000, guid: b9cee2ca2c2c945b0bbc584de3c8829a, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/House2
+    frames:
+    - {fileID: 21300000, guid: 234d9257f4c1741cab35823879833351, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/House3
+    frames:
+    - {fileID: 21300000, guid: b6eafc6c638784324becfa1966effa56, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/Monastery
+    frames:
+    - {fileID: 21300000, guid: 9d04bb2c5630042c7b93442ef26a6843, type: 3}
+  - key: Tiny Swords/Buildings/Red Buildings/Tower
+    frames:
+    - {fileID: 21300000, guid: da5bd5128607d42b58a0100672bc61d3, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/Archery
+    frames:
+    - {fileID: 21300000, guid: c57a41b4b0b14434e9e3dc5a426febef, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/Barracks
+    frames:
+    - {fileID: 21300000, guid: 1afe493e049254cfc884ffa58152ca50, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/Castle
+    frames:
+    - {fileID: 21300000, guid: ba6e4899ce2184481b037df5cb76ef31, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/House1
+    frames:
+    - {fileID: 21300000, guid: dfe3f9e8e9ccc4cd7843a9d657ab5fe2, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/House2
+    frames:
+    - {fileID: 21300000, guid: a53cf2c9640d64d8b8d50e3b2df10739, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/House3
+    frames:
+    - {fileID: 21300000, guid: 255d981ca436d413d84f7803cad52e4b, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/Monastery
+    frames:
+    - {fileID: 21300000, guid: 1b31b5c18d1114c22b3cc92b7cecc6a3, type: 3}
+  - key: Tiny Swords/Buildings/Yellow Buildings/Tower
+    frames:
+    - {fileID: 21300000, guid: defebd30b7d2e4bff960711bed04e54f, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Bushes/Bush 1
+    frames:
+    - {fileID: -3885278797278204714, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: 8467942844960169732, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: -4988311467233121452, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: -2076943503388869069, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: 2847678715978982054, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: -7511650321784113099, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: 5249359379302588804, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+    - {fileID: -38965159418246943, guid: a84dffbcf25d54440af977606896fc46, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Bushes/Bush 2
+    frames:
+    - {fileID: -9069723417043114871, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: -7778263734086926754, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: 3895201711064650226, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: -2894652072077081880, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: 1807178129982459359, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: 6747323300473403140, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: 718926110461049310, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+    - {fileID: -6038184156430089592, guid: 3974238adf8a646d6a2b3ad76793ae41, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Bushes/Bush 3
+    frames:
+    - {fileID: -2460423728298319197, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: 6220964879699076034, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: -2035040103724388112, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: 4103977559195585779, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: 3264041098698006037, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: 6907639412660370754, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: -282153154500968895, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+    - {fileID: 8476668341360481432, guid: 72dc8fc77fc8f43bb9ce7f50bbf11d67, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Bushes/Bush 4
+    frames:
+    - {fileID: -1604862082099773515, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: -2421923038010285078, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: 3107643133992848335, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: -1796514972878875071, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: 2872366895844429945, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: -5096520015912206362, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: 6994710136649292932, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+    - {fileID: -7590220760718205482, guid: 35328aa4331c645f39768db2fd54501e, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_01
+    frames:
+    - {fileID: 21300000, guid: f6f0e53d863ee47e59f269cada8e711a, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_02
+    frames:
+    - {fileID: 21300000, guid: ed913e18216254ce6a098078c02ef683, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_03
+    frames:
+    - {fileID: 21300000, guid: 1e7e70e696d2b4a02bfd5355f801766f, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_04
+    frames:
+    - {fileID: 21300000, guid: f2ed26cb6dd1041dd9ee9c41ab988af0, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_05
+    frames:
+    - {fileID: 21300000, guid: b4fdf8be587754c7ea72d1cabd4347b1, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_06
+    frames:
+    - {fileID: 21300000, guid: 678a2da2eafd845eb929587b3b44d4c6, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_07
+    frames:
+    - {fileID: 21300000, guid: cab6b8f0cd01a438894a37e3ac392ca0, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Clouds/Clouds_08
+    frames:
+    - {fileID: 21300000, guid: 94433691e84e44208b203dea026080e1, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks/Rock1
+    frames:
+    - {fileID: 21300000, guid: 8ea2ea1f28e7447ac943714f1ef7fae9, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks/Rock2
+    frames:
+    - {fileID: 21300000, guid: 819d349f0d3f54eecac2ed309d6f97a1, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks/Rock3
+    frames:
+    - {fileID: 21300000, guid: 2ab63786853d5408b94f25ec2c8883b7, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks/Rock4
+    frames:
+    - {fileID: 21300000, guid: 50ba275dcd62e47b0b07e37b43a997fa, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks in the Water/Water Rocks_01
+    frames:
+    - {fileID: -5483390788980850787, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -2027483244042122269, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -1143114981373034982, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 2528951655009623702, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 6050748038819346411, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -2710669667468552177, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 3399417477928775637, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -3680463350662454228, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -4344135329745671640, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -691024590840829886, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -7658276157882494199, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -558849983326903277, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 5390449017634418697, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: -2664502254669432612, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 2339070538383146887, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+    - {fileID: 1794980880798166544, guid: 19b6464b474a84161a73091940dcf706, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks in the Water/Water Rocks_02
+    frames:
+    - {fileID: 5133423978288803193, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -2049507263116434788, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -9048113720714812671, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -1003494684007388925, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -2464930487958268796, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -3457530265399777039, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 8898632214244653118, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 882474863822340767, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -7774985506826931765, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 514017288313434984, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 3200672026995289210, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 6221036081343752541, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -7591771217304538317, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: -250132882659222368, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 6472350163185039618, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+    - {fileID: 3179589680329323135, guid: 618171edcc04144e494e247b59b1a3de, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks in the Water/Water Rocks_03
+    frames:
+    - {fileID: 8384835515757780555, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 2350540041187290109, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 7830442535718679565, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 1107704702327347289, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 5638308246859435684, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 5841741415096292792, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: -7922372713123978414, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 6028601112171070085, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 1974184129167499262, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: -1311854578901025984, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: -3625518646778956039, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 4238991538242509886, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 5528114269818808261, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 6390647827179591045, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: -5304205338187861626, guid: bb68d4e8344244269927452bde734770, type: 3}
+    - {fileID: 65037300474577770, guid: bb68d4e8344244269927452bde734770, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rocks in the Water/Water Rocks_04
+    frames:
+    - {fileID: 3873779795923698762, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 4234963899626850703, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 7161343671226081534, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -7725989614899971964, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 7416389424349211935, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -4535748436077241286, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -3241895486459367200, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -793005186328604117, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -5930043487503493732, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -263976100284346392, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 7938979530805419752, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -6944550090128911867, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 5294321521121635437, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -6725503714359783815, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: 4898973042930983391, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+    - {fileID: -3206363201524365965, guid: e7c2ddf93d1804a55ab4242b09ca43ca, type: 3}
+  - key: Tiny Swords/Terrain/Decorations/Rubber Duck/Rubber duck
+    frames:
+    - {fileID: 4530201800604801154, guid: 0453d95a2d6ff4cc8864de3956a9fb81, type: 3}
+    - {fileID: 4539385781790915910, guid: 0453d95a2d6ff4cc8864de3956a9fb81, type: 3}
+    - {fileID: 4293914032954743194, guid: 0453d95a2d6ff4cc8864de3956a9fb81, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Tilemap_color1
+    frames:
+    - {fileID: 4684625920699962428, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -2801873246907429078, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1844109271, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1483446518, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -357285377, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1908527803, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 175773559, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1243141261, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -529755566, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -985832654, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1273371556, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -438687076, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1511874181, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1317816526, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 849504406, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -510447500, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1611736068, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -160155248, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 659350005, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 196836861, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1675646848, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -916154361, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 543361271, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -2041690308, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1599712627, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1292135869, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -55024715, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 157780901, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1881934651, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 249465112, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1266434703, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1127109569, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1701980172, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -148372578, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1080117708, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1635458254, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1400673839, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1065079252, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1856551384, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: -1599487688, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 1160597804, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 565056302, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 227355346, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+    - {fileID: 137047993, guid: 027fd9e06196b4e62a8e40527bfbf3a9, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Tilemap_color2
+    frames:
+    - {fileID: -5504348260207254410, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 539329969662389765, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1076235251, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1196921367, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1180061327, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1780283783, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -795240141, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1950738725, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1861057684, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 448059324, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -2039862058, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1847787997, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 264944188, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -435628579, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1270990360, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1931073506, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1957699822, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 2107255681, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -2070376810, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 415954481, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -396707164, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -851663624, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1764044526, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 2029368589, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -643238077, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1029747368, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1113156980, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1057886019, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -24630850, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -544340044, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1864082573, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -279894308, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -480620054, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1844987528, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -491256750, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 75519946, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1347608597, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1818980569, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1969334295, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 758791288, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -408333230, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -1980873294, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: -2115113863, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+    - {fileID: 1852742643, guid: 59b15404243bb41eb9ba6f3778f8b559, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Tilemap_color3
+    frames:
+    - {fileID: 4957877568313164686, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -8311565650131077811, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1397986196, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -2146405070, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1248370815, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -6190430, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 936562855, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -158490056, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1607968048, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1997098824, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1087537933, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1459267164, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 778012294, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1582561903, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1806513954, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 861181952, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 952555468, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1655647341, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1666510166, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -2037407638, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1322270062, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -313802884, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1795244860, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1831402114, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 904177817, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1720217606, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 2007025872, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1450291195, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1016251749, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1575599001, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -861327163, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1638288766, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 763388022, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -657342192, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1936963644, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1991907614, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 1010717502, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1547494639, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -1135240039, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 25470683, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -507490038, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -755428978, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: -368782025, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+    - {fileID: 202607457, guid: a6bd68eeaaa69466ea138e72504a1886, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Tilemap_color4
+    frames:
+    - {fileID: 6442672608185154932, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -5321645628353702022, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1622802137, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1339878317, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1597514750, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1841870003, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 2098104330, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1344427104, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1066622592, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -36024545, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1175161495, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1689089436, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1853073541, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1334209589, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 2140776217, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 795247054, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1023563276, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 2085117290, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -595775533, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -110832245, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1877537859, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1061614281, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1607701611, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1999697230, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 683281004, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1729362208, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -665947190, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -889711931, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -116900997, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -7802155, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 844576803, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1831745010, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -2106117241, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -833099066, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 1093255148, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1432443044, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 820672085, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -167970291, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -1242191654, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 744807448, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 382876053, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 172693050, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: -2141375769, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+    - {fileID: 2110412721, guid: 2eb2b1f913d3245c9aa29f6d6126c080, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Tilemap_color5
+    frames:
+    - {fileID: -2215478835737201931, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 2450241133140344560, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1306364160, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1825342394, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1465275781, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1419862993, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1040107474, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1413121956, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -183623465, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -266443383, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1991456062, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1699610565, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1560006087, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 783385357, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -2038591915, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1456590447, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1128257494, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 347992766, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -917603497, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1562600355, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1634654649, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1615596556, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -650388399, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1117987666, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1584790744, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 976526219, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1528348401, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1407361637, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1093082638, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1408989345, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 727806713, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 716133636, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1898766481, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -964874274, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -935877010, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 328121928, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1095327957, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -61021996, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 947863012, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1733619105, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1227776922, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1001962584, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: 1259132608, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+    - {fileID: -1854447388, guid: 975d0180777d749ceacbb5aad1b8ebd9, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Water Background color
+    frames:
+    - {fileID: 21300000, guid: 7764f19de4c0b4d509138107e1b72dcd, type: 3}
+  - key: Tiny Swords/Terrain/Tileset/Water Foam
+    frames:
+    - {fileID: 8045197053618216752, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -1778029542102904798, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 5677542656759928977, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -4839569638931813264, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 2004939184200893186, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 8432400645076990619, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -3704847506149939038, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 2230421966675971980, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 2397228053743353214, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -3258321334757180875, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -1659767062332973701, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -3681904862023827580, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -8034513510692042630, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 8313790842667632763, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: 1024707267088520393, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+    - {fileID: -5952541215844301678, guid: 473188d9507f64599a776617a45dcf3f, type: 3}
+  - key: Tiny Swords/Particle FX/Dust_01
+    frames:
+    - {fileID: -3938067102993155475, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: -2814413885907626888, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: 511644010118226858, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: 5573429324852406649, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: -437083963760578091, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: 5397500908387719711, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: -7625881852923091777, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+    - {fileID: -1636112882996861530, guid: dc61687b6a5c544dd919bee8fb6648ab, type: 3}
+  - key: Tiny Swords/Particle FX/Dust_02
+    frames:
+    - {fileID: -1816181534746063121, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: 1915886111900610273, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: 864970246688699690, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: 3623962637607264606, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: 8762429002948413843, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: -6678866189017181242, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: -5614916648683932799, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: -415409350319509725, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: 3150438332194645857, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+    - {fileID: -7163496338456348702, guid: a14746fc3b7dd4c11b8ddfba1629a28d, type: 3}
+  - key: Tiny Swords/Particle FX/Explosion_01
+    frames:
+    - {fileID: -3777264317062036557, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: -8905821008626868714, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: -24568505368720062, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: 196447884637387898, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: 6230661102287994122, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: 3570182968233781638, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: 7073276248712390129, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+    - {fileID: -4795900648182059264, guid: 56a3b5149926b4979abbac26270054ec, type: 3}
+  - key: Tiny Swords/Particle FX/Explosion_02
+    frames:
+    - {fileID: -3981084935166230369, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -4641516227613644353, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -6407341049617763974, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -6009888827652310880, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -2785567299067377396, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: 5503448903286402839, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: 8211731000041547530, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -298610668743593142, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: 4004436269926165681, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+    - {fileID: -2322230881309171775, guid: 0fb3704cb47b345c3bc3d5afcf150930, type: 3}
+  - key: Tiny Swords/Particle FX/Fire_01
+    frames:
+    - {fileID: -6386518860914480035, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -104117369398544302, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -4039194791835125348, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: 6807214062609787494, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -6852165731233830433, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -6497433421722253745, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -7145303400179622672, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+    - {fileID: -7801896107690152202, guid: 16386dc28e16143d6a8131b104024556, type: 3}
+  - key: Tiny Swords/Particle FX/Fire_02
+    frames:
+    - {fileID: -67924925095688269, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: -1473440142343485929, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 6065719682878445309, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 9165710306475261066, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: -2092317922923651828, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 9015670353412449868, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 3556718046733199388, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: -7910140599244389621, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 1556029973359163379, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+    - {fileID: 8596063046478050488, guid: 6be67de53fcad41de87517dd2c5f0bcd, type: 3}
+  - key: Tiny Swords/Particle FX/Fire_03
+    frames:
+    - {fileID: -3498650767529558072, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: 3072025510827308600, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -4308433970026275988, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: 8941552742621140824, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -1469380343425163923, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: 1512438488333511780, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -4608449595533301862, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -8025262048130335697, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: 5530535631180947205, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -1381228762728128686, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: -4101449028447946092, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+    - {fileID: 8650096735785189287, guid: 3b8e9a76bc158461cb287449c6e9b9ac, type: 3}
+  - key: Tiny Swords/Particle FX/Water Splash
+    frames:
+    - {fileID: 2050838275424575437, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: 738320296715068171, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: -9098179098987060170, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: 2237640873078851078, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: -3044144973610908261, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: -4444164948044420745, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: 4489507016002369244, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: 5373122523646378032, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+    - {fileID: 5321815751936357235, guid: ed1635f0f98c64ed0a84200cc7ad0daf, type: 3}
+  - key: Tiny Swords/UI Elements/Banners/Banner
+    frames:
+    - {fileID: 21300000, guid: 95ccf692195044964a477a2f2538a1e0, type: 3}
+  - key: Tiny Swords/UI Elements/Banners/Banner_Slots
+    frames:
+    - {fileID: 21300000, guid: 780eafe1c8a324cab90d18efc7967e7b, type: 3}
+  - key: Tiny Swords/UI Elements/Bars/BigBar_Base
+    frames:
+    - {fileID: 21300000, guid: 1ca4a275fe6be46b2a13d0ebc1503219, type: 3}
+  - key: Tiny Swords/UI Elements/Bars/BigBar_Fill
+    frames:
+    - {fileID: 21300000, guid: f2be8e01914384dd494098a7740023e7, type: 3}
+  - key: Tiny Swords/UI Elements/Bars/SmallBar_Base
+    frames:
+    - {fileID: 21300000, guid: 3b5af92575b87497ba7bfae8e982b2f2, type: 3}
+  - key: Tiny Swords/UI Elements/Bars/SmallBar_Fill
+    frames:
+    - {fileID: 21300000, guid: 611d68563116f412abd347fb93660868, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/BigBlueButton_Regular
+    frames:
+    - {fileID: 21300000, guid: 74195b8c61865492fb1d0a56e808bec3, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/BigRedButton_Regular
+    frames:
+    - {fileID: 21300000, guid: cb17f8006e32c48abaaec2c0383c0502, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/SmallBlueRoundButton_Regular
+    frames:
+    - {fileID: 21300000, guid: c11fbc9afab5441bf9e9690c58ed4240, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/SmallBlueSquareButton_Regular
+    frames:
+    - {fileID: 21300000, guid: 9ed72fb392fc948c9a6969d95a154995, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/SmallRedRoundButton_Regular
+    frames:
+    - {fileID: 21300000, guid: 15fe13ac8df394d44a33d6cfe5a09472, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/SmallRedSquareButton_Regular
+    frames:
+    - {fileID: 21300000, guid: 8e5f1ccafb55340459f1b51b1ddeb9ff, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/TinyRoundBlueButton
+    frames:
+    - {fileID: 21300000, guid: 56ce71218a6d94b7ab49d5573f6b001b, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/TinyRoundRedButton
+    frames:
+    - {fileID: 21300000, guid: a6c87a2c640894486a34e17441c0d2a5, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/TinySquareBlueButton
+    frames:
+    - {fileID: 21300000, guid: 0de4de84fd02a4139b7f5756f7bcfc24, type: 3}
+  - key: Tiny Swords/UI Elements/Buttons/TinySquareRedButton
+    frames:
+    - {fileID: 21300000, guid: 3e00d43738c5a467181edf257b0ce947, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_01
+    frames:
+    - {fileID: 21300000, guid: 2334fa2b3b6b3492281b0993c123cfac, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_02
+    frames:
+    - {fileID: 21300000, guid: 1ae77def86fe54f889da24e43f32ae32, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_03
+    frames:
+    - {fileID: 21300000, guid: 8fd2d0449599e4f7a9a1f1f170b6a2b0, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_04
+    frames:
+    - {fileID: 21300000, guid: f846c6072ceb0445bbcb59c41b57a5cb, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_05
+    frames:
+    - {fileID: 21300000, guid: 3eccc0fa0d72e4392b563e6bbf6005c8, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_06
+    frames:
+    - {fileID: 21300000, guid: edeeaf011ec784a42bbc766e3e983972, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_07
+    frames:
+    - {fileID: 21300000, guid: 46fe4a83a5f9d46b8852dad0d6ddf0c4, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_08
+    frames:
+    - {fileID: 21300000, guid: 3eefea2eeee3641309f611ab73be3307, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_09
+    frames:
+    - {fileID: 21300000, guid: 775bad7863ac5431e894540037985e03, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_10
+    frames:
+    - {fileID: 21300000, guid: 2adf134bf181b462381328428b219753, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_11
+    frames:
+    - {fileID: 21300000, guid: ee6b934f068f644c1a3b9333862df010, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_12
+    frames:
+    - {fileID: 21300000, guid: 2a287585274c74b87b098f1980d2f044, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_13
+    frames:
+    - {fileID: 21300000, guid: 50d984ed102d3422a869cd614752957f, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_14
+    frames:
+    - {fileID: 21300000, guid: 20bbae1856695438ea730a5a14e87865, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_15
+    frames:
+    - {fileID: 21300000, guid: 3a087737446f74834a85253bfbabd726, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_16
+    frames:
+    - {fileID: 21300000, guid: d79309ce9b85f47f5bfffa6659e02bfd, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_17
+    frames:
+    - {fileID: 21300000, guid: 36f90a3edc7ff4f419d50edf8a179aa3, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_18
+    frames:
+    - {fileID: 21300000, guid: a6c42e62b565e4e8897470b254de1f9c, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_19
+    frames:
+    - {fileID: 21300000, guid: 7557544a270d14006afcede942e38074, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_20
+    frames:
+    - {fileID: 21300000, guid: d71d4e77dfe1d4474acad9d613932ec8, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_21
+    frames:
+    - {fileID: 21300000, guid: edde319c37ce048b6bf0462d4f8bd56d, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_22
+    frames:
+    - {fileID: 21300000, guid: 2004f7c51a7c744a0a1bddeec0aa3b68, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_23
+    frames:
+    - {fileID: 21300000, guid: a7ddf97c30db44d2581c9d2b9ec8d39d, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_24
+    frames:
+    - {fileID: 21300000, guid: 6d8cf840041c44fe49e9ac63926aada6, type: 3}
+  - key: Tiny Swords/UI Elements/Human Avatars/Avatars_25
+    frames:
+    - {fileID: 21300000, guid: f1df8963cdffa435d8eb848683b327c3, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_01
+    frames:
+    - {fileID: 21300000, guid: 1c0647c9dba61414898ffc20ac2d2e5b, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_02
+    frames:
+    - {fileID: 21300000, guid: 859e44a7cf53f4e889017843532b11d2, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_03
+    frames:
+    - {fileID: 21300000, guid: 7a0f4fab77b344f7b9386a7c87e492b1, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_04
+    frames:
+    - {fileID: 21300000, guid: a7b12afab90f94b99b54ac34b293b2be, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_05
+    frames:
+    - {fileID: 21300000, guid: 23450567bedfb472eb6f8efd4ad515da, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_06
+    frames:
+    - {fileID: 21300000, guid: a1ce5e93205074fa0b03cc1070dbdeca, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_07
+    frames:
+    - {fileID: 21300000, guid: fbee8984e8c234190b7c5f6e10dbd4a7, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_08
+    frames:
+    - {fileID: 21300000, guid: fae718ae59ba4491e94b6063a1d127ab, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_09
+    frames:
+    - {fileID: 21300000, guid: ca89e4a7c1618426e8458f6eb7fc1444, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_10
+    frames:
+    - {fileID: 21300000, guid: 7648749918456470a9281327b80aa3bb, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_11
+    frames:
+    - {fileID: 21300000, guid: c77e5d756e1804d31aa70c886c64c24d, type: 3}
+  - key: Tiny Swords/UI Elements/Icons/Icon_12
+    frames:
+    - {fileID: 21300000, guid: 41574e2742c0b4b238ba415d423bf99a, type: 3}
+  - key: Tiny Swords/UI Elements/Papers/RegularPaper
+    frames:
+    - {fileID: 21300000, guid: ffac7e0b474194ffd90e3892b95dbac8, type: 3}
+  - key: Tiny Swords/UI Elements/Papers/SpecialPaper
+    frames:
+    - {fileID: 21300000, guid: 8226122f000374939a075569e404c1b5, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/BigRibbons 1
+    frames:
+    - {fileID: 21300000, guid: f22147a613a7b49d6a16e1a72f337216, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/BigRibbons 2
+    frames:
+    - {fileID: 21300000, guid: 9a9514f0524fe424cb491ed4e64375a2, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/BigRibbons 3
+    frames:
+    - {fileID: 21300000, guid: c01d9598ffc59449a98bcc654c54cf32, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/BigRibbons 4
+    frames:
+    - {fileID: 21300000, guid: 49cbf0c19273647b69b1cc55f59c8586, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/BigRibbons 5
+    frames:
+    - {fileID: 21300000, guid: 41307fb33a19b492285e27ed1bad961d, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 1
+    frames:
+    - {fileID: 21300000, guid: fb66c2c581c1848a99ddaab54c09dd21, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 2
+    frames:
+    - {fileID: 21300000, guid: c2f56413a5e64412da2afa598cc72ae0, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 3
+    frames:
+    - {fileID: 21300000, guid: b2332a1d098b74c42855b9e999838530, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 4
+    frames:
+    - {fileID: 21300000, guid: b4344f1ed611245fc9b1e0d04fa14e56, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 5
+    frames:
+    - {fileID: 21300000, guid: 39dc09cd13fcd4778a79c980d379cc7b, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 6
+    frames:
+    - {fileID: 21300000, guid: c87c6b571446d477b8ead9d0db22dbcc, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 7
+    frames:
+    - {fileID: 21300000, guid: b81d1455d0c2e48f497aeb902b9f1c86, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 8
+    frames:
+    - {fileID: 21300000, guid: c393993eb165644428f211a27aef8afd, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 9
+    frames:
+    - {fileID: 21300000, guid: 546ddb4f20f604a6a896583c2801177d, type: 3}
+  - key: Tiny Swords/UI Elements/Ribbons/SmallRibbons 10
+    frames:
+    - {fileID: 21300000, guid: 3f511b3c20d254268b96d476bb4eb70e, type: 3}
+  - key: Tiny Swords/UI Elements/Swords/Swords 1
+    frames:
+    - {fileID: 21300000, guid: cb3b3a3fb40d24321a5c52c979672d33, type: 3}
+  - key: Tiny Swords/UI Elements/Swords/Swords 2
+    frames:
+    - {fileID: 21300000, guid: 35c505eaaaff643fe930fee0bae3d49a, type: 3}
+  - key: Tiny Swords/UI Elements/Swords/Swords 3
+    frames:
+    - {fileID: 21300000, guid: 793e8df8c7f754aa6a01497c873f7310, type: 3}
+  - key: Tiny Swords/UI Elements/Swords/Swords 4
+    frames:
+    - {fileID: 21300000, guid: ea52b89b9810e4968a3469259847eb2e, type: 3}
+  - key: Tiny Swords/UI Elements/Swords/Swords 5
+    frames:
+    - {fileID: 21300000, guid: 74a66a846172e4d119069672ed4aa825, type: 3}
+  - key: Tiny Swords/UI Elements/Wood Table/WoodTable
+    frames:
+    - {fileID: 21300000, guid: 5e92e0fc16b8948c6bb70041214a2060, type: 3}
+  - key: Tiny Swords/UI Elements/Wood Table/WoodTable_Slots
+    frames:
+    - {fileID: 21300000, guid: 9483951be6fb8453f9d2f75614e33c86, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin/goblin
+    frames:
+    - {fileID: 21300000, guid: 2a5cee4ac42504f8c85eeeb7993f8d10, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin/goblin_archer
+    frames:
+    - {fileID: 21300000, guid: 483805364f1c24c9ea7a2ba394d78405, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin/goblin_warrior
+    frames:
+    - {fileID: 21300000, guid: e57c9c0f717a64b42be139dba1892f2a, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin_green/goblin
+    frames:
+    - {fileID: 21300000, guid: 51de07ff79fa042dfacac0d6d4c206b2, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin_green/goblin_archer
+    frames:
+    - {fileID: 21300000, guid: 735a5a1de31c74bc986822bb14de2c32, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/goblin_green/goblin_warrior
+    frames:
+    - {fileID: 21300000, guid: 1bc6f30aa38ac49ac9ae68e12dd34c18, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/green_slime/slime
+    frames:
+    - {fileID: 21300000, guid: 28fd0a34190aa4ad1989fb2ecf8ce578, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/green_slime/slime_king
+    frames:
+    - {fileID: 21300000, guid: 4ed0684047ddd446db42c71e64d3e66e, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/green_slime/stone_slime
+    frames:
+    - {fileID: 21300000, guid: f48fdcc0c8e4345ccbff384d0b92e2d1, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/orange_slime/slime
+    frames:
+    - {fileID: 21300000, guid: 9b8d92afcbde74f18afcbf6f3eab637a, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/orange_slime/slime_king
+    frames:
+    - {fileID: 21300000, guid: d7baaab0f29b64991a3b8803e3746a78, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/orange_slime/stone_slime
+    frames:
+    - {fileID: 21300000, guid: 70a32de72fda44b32be69c782d3c6160, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull/skull
+    frames:
+    - {fileID: 21300000, guid: 72f0358559a3b4ecabe7635452f00c8b, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull/skull_archer
+    frames:
+    - {fileID: 21300000, guid: ff0898eab9aee4aaf834ea3bd07a1062, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull/skull_warrior
+    frames:
+    - {fileID: 21300000, guid: 89042eafda8a74ef6b92caf9c7ca7857, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull_posion/skull
+    frames:
+    - {fileID: 21300000, guid: fe38c8d88de8a4376885cac44b797b0b, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull_posion/skull_archer
+    frames:
+    - {fileID: 21300000, guid: 22f71098746544cc18351f4299789642, type: 3}
+  - key: Layer Lab/2D Characters-CasualMonsters/PNG/All/skull_posion/skull_warrior
+    frames:
+    - {fileID: 21300000, guid: 3b35801048d364bd089645e573f65a17, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/01_Arachne
+    frames:
+    - {fileID: 21300000, guid: e2c8c466ee15f9d46b73b2ff9da8382f, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/02_Chimera
+    frames:
+    - {fileID: 21300000, guid: 8418bb2eec366d0449baf5d22318acdd, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/03_ChironCentaur
+    frames:
+    - {fileID: 21300000, guid: ec0e742c41183734bb10df0d47380161, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/04_FuryDemon
+    frames:
+    - {fileID: 21300000, guid: d760cca8d060033478aec42510721b60, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/05_Hellhourse
+    frames:
+    - {fileID: 21300000, guid: c10edc547980b934c8c2a32e8cac7eb6, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/06_NemianLion
+    frames:
+    - {fileID: 21300000, guid: e9cd798771025f04788816e499b23a28, type: 3}
+  - key: PotionJunkies/7Enemies/Texture/07_Wolf
+    frames:
+    - {fileID: 21300000, guid: 24d14fd6c311ec341a4a2a890a3c6d4f, type: 3}
+  - key: Stone Tower/PNG/1
+    frames:
+    - {fileID: 21300000, guid: 4a13db309b1e778429193b9f10657750, type: 3}
+  - key: Stone Tower/PNG/2
+    frames:
+    - {fileID: 21300000, guid: 60233c9ffd9d3ce47988783fb7762244, type: 3}
+  - key: Stone Tower/PNG/3
+    frames:
+    - {fileID: 21300000, guid: e6619470ff6383649875c23949ef508c, type: 3}
+  - key: Stone Tower/PNG/4
+    frames:
+    - {fileID: 21300000, guid: ed6f2d0d58ae88b4eb79259bc2775184, type: 3}
+  - key: Stone Tower/PNG/5
+    frames:
+    - {fileID: 21300000, guid: 73045a87e71f7f64c8a9e730a14e83d7, type: 3}
+  - key: Stone Tower/PNG/6
+    frames:
+    - {fileID: 21300000, guid: 84a810d8154fd864b9443ac7594b2d90, type: 3}
+  - key: Stone Tower/PNG/7
+    frames:
+    - {fileID: 21300000, guid: 8f84e72fa6dc47d49bf557df06c547b7, type: 3}
+  - key: Stone Tower/PNG/8
+    frames:
+    - {fileID: 21300000, guid: c41340638e1eeb544844a59203ba49d1, type: 3}
+  - key: Stone Tower/PNG/9
+    frames:
+    - {fileID: 21300000, guid: 0fe444e9dca0fd8478c85eeaa88370e3, type: 3}
+  - key: Stone Tower/PNG/10
+    frames:
+    - {fileID: 21300000, guid: 88c5c57da4acce340a59010d4430557a, type: 3}
+  - key: Stone Tower/PNG/11
+    frames:
+    - {fileID: 21300000, guid: aed25c195224a264a82c8d902e6365a4, type: 3}
+  - key: Stone Tower/PNG/12
+    frames:
+    - {fileID: 21300000, guid: 735adcaf8e30f324fbc2972200e50827, type: 3}
+  - key: Stone Tower/PNG/13
+    frames:
+    - {fileID: 21300000, guid: b8fca158ff75ff449997c0e9d3e173a9, type: 3}
+  - key: Stone Tower/PNG/14
+    frames:
+    - {fileID: 21300000, guid: f05b54ce9b6ed4945983f1790154bd26, type: 3}
+  - key: Stone Tower/PNG/15
+    frames:
+    - {fileID: 21300000, guid: 465b53916fcda434897af6e61b77b102, type: 3}
+  - key: Stone Tower/PNG/16
+    frames:
+    - {fileID: 21300000, guid: 3917a0007ad1a3342829ed7bba2f023f, type: 3}
+  - key: Stone Tower/PNG/17
+    frames:
+    - {fileID: 21300000, guid: 706e80300062b2349ae4a20d44c0c877, type: 3}
+  - key: Stone Tower/PNG/18
+    frames:
+    - {fileID: 21300000, guid: 46e81428633fe7b4eb1f58c05f52a15c, type: 3}
+  - key: Stone Tower/PNG/19
+    frames:
+    - {fileID: 21300000, guid: cbe0757d8b371e449ab2b9df4eba8e70, type: 3}
+  - key: Stone Tower/PNG/20
+    frames:
+    - {fileID: 21300000, guid: 74050084648771e48a18d00f68e97cdc, type: 3}
+  - key: Stone Tower/PNG/21
+    frames:
+    - {fileID: 21300000, guid: 5a695f9dd3a6e3a42b61ae3182630032, type: 3}
+  - key: Stone Tower/PNG/22
+    frames:
+    - {fileID: 21300000, guid: 870f733c359232340ab7394b5700b7c9, type: 3}
+  - key: Stone Tower/PNG/23
+    frames:
+    - {fileID: 21300000, guid: d83c2d0456691e34894fcbba68fe484a, type: 3}
+  - key: Stone Tower/PNG/24
+    frames:
+    - {fileID: 21300000, guid: 794c8bfa1dfcce844b9c73e33230b424, type: 3}
+  - key: Stone Tower/PNG/25
+    frames:
+    - {fileID: 21300000, guid: 27ae97717e72d7e409f7d8b06fa4b182, type: 3}
+  - key: Stone Tower/PNG/26
+    frames:
+    - {fileID: 21300000, guid: 6754a2cf7c4d8664b9c9dc4fbebedaa9, type: 3}
+  - key: Stone Tower/PNG/27
+    frames:
+    - {fileID: 21300000, guid: 5aab4d0e94f429348963daea8c217d36, type: 3}
+  - key: Stone Tower/PNG/28
+    frames:
+    - {fileID: 21300000, guid: 5e2d2221f65a0b347a9d3e0dae6dbd26, type: 3}
+  - key: Stone Tower/PNG/29
+    frames:
+    - {fileID: 21300000, guid: f4b43ff68c09f244382b19f8973308f2, type: 3}
+  - key: Stone Tower/PNG/30
+    frames:
+    - {fileID: 21300000, guid: 95eea6d96858bba4194b0dde3aa8f4d2, type: 3}
+  - key: Stone Tower/PNG/31
+    frames:
+    - {fileID: 21300000, guid: f1e5054baab933c4db3da9eda7a6eb3a, type: 3}
+  - key: Stone Tower/PNG/32
+    frames:
+    - {fileID: 21300000, guid: 3f07a8f7f03ee5c4f98ec9313c07f2cd, type: 3}
+  - key: Stone Tower/PNG/33
+    frames:
+    - {fileID: 21300000, guid: b0c5f740051e1bc419629d563afd7be2, type: 3}
+  - key: Stone Tower/PNG/34
+    frames:
+    - {fileID: 21300000, guid: b5c588dd3f7ccc44aaae1f117cb4d848, type: 3}
+  - key: Stone Tower/PNG/35
+    frames:
+    - {fileID: 21300000, guid: 0bc73b8d63f0d71429fb46b94b4e8bf2, type: 3}
+  - key: Stone Tower/PNG/36
+    frames:
+    - {fileID: 21300000, guid: 31f3556476ea2a6488ece869028a88c7, type: 3}
+  - key: Stone Tower/PNG/37
+    frames:
+    - {fileID: 21300000, guid: b2f051cc96ecfd448a45e3a2c4747395, type: 3}
+  - key: Stone Tower/PNG/38
+    frames:
+    - {fileID: 21300000, guid: a335a8aafe6cb2346820e213046a5b29, type: 3}
+  - key: Stone Tower/PNG/39
+    frames:
+    - {fileID: 21300000, guid: 2e81c0863aaa52b49929e1e9eef2b504, type: 3}
+  - key: Stone Tower/PNG/40
+    frames:
+    - {fileID: 21300000, guid: a6406af300cad1540b5cc026f4744b12, type: 3}
+  - key: Stone Tower/PNG/41
+    frames:
+    - {fileID: 21300000, guid: c90d930631416ec4fb88907f8ce05004, type: 3}
+  - key: Stone Tower/PNG/42
+    frames:
+    - {fileID: 21300000, guid: feb8cb79518d6174e8fd9c0d42383ce9, type: 3}
+  - key: Stone Tower/PNG/43
+    frames:
+    - {fileID: 21300000, guid: 364f2e09cb8b8f24db5ea21f706a2d8e, type: 3}
+  - key: Stone Tower/PNG/44
+    frames:
+    - {fileID: 21300000, guid: aa8004cc1f998664c8a8596c26052963, type: 3}
+  - key: Stone Tower/PNG/45
+    frames:
+    - {fileID: 21300000, guid: c000dfc25bd607243970be4a03028cff, type: 3}
+  - key: Stone Tower/PNG/46
+    frames:
+    - {fileID: 21300000, guid: 4993d9882c6d139449f3e4a4aa3df7a9, type: 3}
+  - key: Stone Tower/PNG/47
+    frames:
+    - {fileID: 21300000, guid: 8cc4e9b03c13c62428aa8f153521eb2b, type: 3}
+  - key: Stone Tower/PNG/48
+    frames:
+    - {fileID: 21300000, guid: c401f92316158e446a298945363e8cd9, type: 3}
+  - key: Stone Tower/PNG/49
+    frames:
+    - {fileID: 21300000, guid: 363c2df7f6ad3364c9cb55da3a7acdb3, type: 3}
+  - key: Stone Tower/PNG/50
+    frames:
+    - {fileID: 21300000, guid: 9611e21661d05cf4e8b6d032e9d3f78c, type: 3}
+  - key: Stone Tower/PNG/51
+    frames:
+    - {fileID: 21300000, guid: f7f15466a3744b5488688ad5506f9a20, type: 3}
+  - key: Stone Tower/PNG/52
+    frames:
+    - {fileID: 21300000, guid: ecc443a5df10e3147be68c53ad00dd53, type: 3}
+  - key: Stone Tower/PNG/53
+    frames:
+    - {fileID: 21300000, guid: e2a3ac72d6fadb241bafcb3fe3009495, type: 3}
+  - key: Stone Tower/PNG/54
+    frames:
+    - {fileID: 21300000, guid: a2bbc2a7556a7ac4f9765e993ad8e801, type: 3}
+  - key: Stone Tower/PNG/55
+    frames:
+    - {fileID: 21300000, guid: aaea3451df3618743a962e0358df6f3f, type: 3}
+  - key: Stone Tower/PNG/56
+    frames:
+    - {fileID: 21300000, guid: f76c10893e71d6048827656ff06d1ffe, type: 3}
+  - key: Stone Tower/PNG/57
+    frames:
+    - {fileID: 21300000, guid: f3550de2814860e4da11b24878057679, type: 3}
+  - key: Stone Tower/PNG/58
+    frames:
+    - {fileID: 21300000, guid: d962b364d0a797147898bda86e60a619, type: 3}
+  - key: Stone Tower/PNG/59
+    frames:
+    - {fileID: 21300000, guid: ca3f1659354a5444595cd55f5cad1990, type: 3}
+  - key: Stone Tower/PNG/60
+    frames:
+    - {fileID: 21300000, guid: 7f493a9c3248db248ae6beff7f2d72fb, type: 3}
+  - key: Stone Tower/PNG/61
+    frames:
+    - {fileID: 21300000, guid: 9a25b561b96c8e943a6f46f17c6c8bfb, type: 3}
+  prefabs:
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-1/Mob-1-1
+    prefab: {fileID: 5113674762288219349, guid: e57423684facafc41901b1253295a05f, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-1/Mob-1-2
+    prefab: {fileID: 8131245489797935495, guid: 491768a4e058b7545a4eefd5244c6eac, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-1/Mob-1-3
+    prefab: {fileID: 5320490038305514709, guid: ec9168839e390384cad047061e8aa2c2, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-1/Mob-1-4
+    prefab: {fileID: 7743846603489645177, guid: c9882337911b05a43b6d3c5417b2da31, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-2/Mob-2-1
+    prefab: {fileID: 2200185237431256712, guid: 0665326551f11704eae9f07d9a169e9b, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-2/Mob-2-2
+    prefab: {fileID: 9095830667806432708, guid: 2b7e87cd94764af4da6addd894243228, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-2/Mob-2-3
+    prefab: {fileID: 2437986789228138103, guid: 8b6eac364d1d0584bb6fdb156f71a098, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-2/Mob-2-4
+    prefab: {fileID: 9143644444245544852, guid: 6745a642d839ab448b885099e3897385, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-3/Mob-3-1
+    prefab: {fileID: 3251214440278622263, guid: a1bf94042c3645b49945f59a2745e38b, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-3/Mob-3-2
+    prefab: {fileID: 3243615129774145000, guid: 61d43cc5c46943046bf7032beeb23eed, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-3/Mob-3-3
+    prefab: {fileID: 856070904350451036, guid: e5e4dc8f48f0f3d499d2b0f2aa87ceeb, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-3/Mob-3-4
+    prefab: {fileID: 2373019082761668954, guid: 324ea4666088d6f4abdf91040fb28bce, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-4/Mob-4-1
+    prefab: {fileID: 3823426474231609188, guid: 8d8ba48428fc7e24a8af7ba2e33c612b, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-4/Mob-4-2
+    prefab: {fileID: 5706504930646353460, guid: 8dbc76563ac52f6439abebf7ecc2000c, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-4/Mob-4-3
+    prefab: {fileID: 594639508811603247, guid: 57907e2e4918b0e4f8de48a32328d2b1, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-4/Mob-4-4
+    prefab: {fileID: 6981945521004101025, guid: 0610953713305bb449661e112a090a97, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-5/Mob-5-1
+    prefab: {fileID: 7052557827498241720, guid: 895091bd6da521745a430638e9b7c58e, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-5/Mob-5-2
+    prefab: {fileID: 5023343132939322940, guid: 12ddb1c684d90654c951c8f043573450, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-5/Mob-5-3
+    prefab: {fileID: 7310977684054391527, guid: 0a3b978133fe7644c880cb2e0ffcca67, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-5/Mob-5-4
+    prefab: {fileID: 8020546366358668744, guid: cfedb78d5d6cca948af1fd61cb9d4d0f, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-6/Mob-6-1
+    prefab: {fileID: 2048795692867387678, guid: 4a678e7f6e295cb49a1b720ecfa16313, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-6/Mob-6-2
+    prefab: {fileID: 6929081370998279115, guid: 209b0995d8f59314d9a4ec9d3f515d20, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-6/Mob-6-3
+    prefab: {fileID: 1362116179208597502, guid: dab06ccbddb6b6346a108efc984cc9c1, type: 3}
+  - key: OldStyleCartoonMobsPack1/Prefabs/Pre-Mobs-6/Mob-6-4
+    prefab: {fileID: 2452429473381936992, guid: 03eac6e49c901804f9bb9561c4c3ad53, type: 3}
+  tiles:
+  - key: water
+    tile: {fileID: 11400000, guid: ab40de2f0156a4e208fad1347f35016b, type: 2}
+  - key: foam
+    tile: {fileID: 11400000, guid: 8f3054a4926764fb58dbabffc35a76b8, type: 2}

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4626a54e19105b24e88e08abf90699ec, type: 3}
+  m_Name: Level01
+  m_EditorClassIdentifier: Assembly-CSharp::Oath.LevelConfig
+  levelIndex: 1
+  title: "Ng\u1ECDn L\u1EEDa \u0110\u1EA7u Ti\xEAn"
+  location: "L\xE0ng Greenhaven"
+  description: "Qu\xE2n C\u1EDD \u0110\u1ECF \u0111\u1ED5 b\u1ED9 l\xEAn b\u1EDD \u0111\xF4ng Greenhaven. H\xE3y l\xE0m quen v\u1EDBi vi\u1EC7c x\xE2y th\xE1p, tuy\u1EC3n qu\xE2n v\xE0 \u0111i\u1EC1u qu\xE2n \u0111\u1EC3 gi\u1EEF l\xE2u \u0111\xE0i."
+  objective: "B\u1EA3o v\u1EC7 l\xE2u \u0111\xE0i"
+  sceneName: 10_Level01
+  intro:
+  - speaker: "K\u1EC3 chuy\u1EC7n"
+    text: "Qu\u1EA7n \u0111\u1EA3o Elaria. \u1EDE trung t\xE2m l\xE0 Tr\xE1i Tim B\xECnh Minh \u2014 tinh th\u1EC3 c\u1ED5 \u0111\u1EA1i gi\u1EEF c\xE2n b\u1EB1ng cho mu\xF4n \u0111\u1EA3o. Nh\u01B0ng tri\u1EC1u \u0111\xECnh \u0111\xE3 d\u1ED3n g\u1EA7n h\u1EBFt n\u0103ng l\u01B0\u1EE3ng v\u1EC1 kinh \u0111\xF4, b\u1ECF m\u1EB7c c\xE1c \u0111\u1EA3o xa."
+  - speaker: "K\u1EC3 chuy\u1EC7n"
+    text: "T\u01B0\u1EDBng Veyr, ng\u01B0\u1EDDi t\u1EEBng ph\u1EE5c v\u1EE5 v\u01B0\u01A1ng tri\u1EC1u, \u0111\xE3 t\u1EADp h\u1EE3p qu\xE2n C\u1EDD \u0110\u1ECF. S\xE1ng nay, nh\u1EEFng c\xE1nh bu\u1ED3m \u0111\u1ECF xu\u1EA5t hi\u1EC7n ngo\xE0i kh\u01A1i l\xE0ng Greenhaven."
+  - speaker: Mira
+    text: "\u0110\u1ED9i tr\u01B0\u1EDFng Kael! Thuy\u1EC1n \u0111\u1ECBch \u0111\xE3 c\u1EADp b\u1EDD ph\xEDa \u0111\xF4ng. Ch\xFAng s\u1EBD theo con \u0111\u01B0\u1EDDng m\xF2n ti\u1EBFn th\u1EB3ng t\u1EDBi l\xE2u \u0111\xE0i."
+  - speaker: Kael
+    text: "D\xE2n l\xE0ng c\xF2n ch\u01B0a k\u1ECBp s\u01A1 t\xE1n. Ch\xFAng ta ph\u1EA3i gi\u1EEF l\xE2u \u0111\xE0i qua ba \u0111\u1EE3t t\u1EA5n c\xF4ng."
+  - speaker: Mira
+    text: "C\xE1c ch\u1EA5m \u0111\u1ECF tr\xEAn b\u1EA3n \u0111\u1ED3 l\xE0 \u0111\u01B0\u1EDDng ti\u1EBFn qu\xE2n c\u1EE7a ch\xFAng. X\xE2y th\xE1p canh d\u1ECDc \u0111\u01B0\u1EDDng, tuy\u1EC3n l\xEDnh \u1EDF doanh tr\u1EA1i, v\xE0 ch\xFA \xFD l\u1ED1i h\u1EB9p gi\u1EEFa hai m\u1ECFm \u0111\xE1!"
+  outro:
+  - speaker: Kael
+    text: "Greenhaven v\u1EABn \u0111\u1EE9ng v\u1EEFng. Nh\u01B0ng \u0111\xE2y m\u1EDBi ch\u1EC9 l\xE0 \u0111\u1ED9i ti\xEAn phong."
+  - speaker: Mira
+    text: "T\xF9 binh khai r\u1EB1ng Veyr \u0111ang ti\u1EBFn v\u1EC1 C\xE2y C\u1EA7u \u0110\xE1 \u2014 con \u0111\u01B0\u1EDDng duy nh\u1EA5t n\u1ED1i sang \u0111\u1EA3o trong. Ch\xFAng ta ph\u1EA3i t\u1EDBi \u0111\xF3 tr\u01B0\u1EDBc h\u1EAFn."
+  tutorialHints:
+  - "Ch\u1EA1m v\xE0o m\u1ED9t <b>\xF4 x\xE2y d\u1EF1ng</b> (bi\u1EC3u t\u01B0\u1EE3ng b\xFAa) r\u1ED3i ch\u1ECDn <b>Th\xE1p canh</b>."
+  - "Ch\u1EA1m <b>Doanh tr\u1EA1i</b> \u0111\u1EC3 tuy\u1EC3n Ki\u1EBFm s\u0129 ho\u1EB7c Cung th\u1EE7."
+  - "Ch\u1EA1m m\u1ED9t ng\u01B0\u1EDDi l\xEDnh (ho\u1EB7c n\xFAt <b>Ch\u1ECDn c\u1EA3 \u0111\u1ED9i</b>), r\u1ED3i ch\u1EA1m l\xEAn b\u1EA3n \u0111\u1ED3 \u0111\u1EC3 di chuy\u1EC3n t\u1EDBi l\u1ED1i h\u1EB9p."
+  - "<b>Th\u1EE3</b> t\u1EF1 ch\u1EB7t g\u1ED7 v\xE0 \u0111\xE0o v\xE0ng. Ch\u1EA1m <b>L\xE2u \u0111\xE0i</b> \u0111\u1EC3 tuy\u1EC3n th\xEAm Th\u1EE3."
+  - "S\u1EB5n s\xE0ng? Nh\u1EA5n <b>G\u1ECDi ngay</b> \u0111\u1EC3 \u0111\u1ECBch t\u1EDBi s\u1EDBm v\xE0 nh\u1EADn th\xEAm v\xE0ng."
+  - "M\u1EDBi: <b>Th\xE1p B\u1EAFn \u0110\xE1</b> n\xE9m \u0111\xE1 g\xE2y s\xE1t th\u01B0\u01A1ng lan \u2014 r\u1EA5t h\u1EE3p \u0111\u1EC3 ch\u1EB7n \u0111\xE1m \u0111\xF4ng \u1EDF l\u1ED1i h\u1EB9p."
+  map: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~.......~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~......bT...o......T~~~~~~~~~w~~~
+
+    ~~~~~~~~~T..T.....T....^^^^^^..T..~~~~~~~~~~
+
+    ~~~~~~~T.....T.........^^^^^^....T..~~~~~~~~
+
+    ~~~~.T...............##^^^^^^..##..T...~~~~~
+
+    ~~~~T..b...............................~~~~~
+
+    ~~~~..b.............b......b...........~~~~~
+
+    ~~~.T.$..o..........================....~~~~
+
+    ~~.T..........##....================.....~~~
+
+    ~~........C.........==........##..==.....~~~
+
+    ~~.........===========.^^^^^^.....=======S~~
+
+    ~~.........==========..^^^^^^.....========~~
+
+    ~~.s......b......##b...^^^^^^....o.......~~~
+
+    ~~~.T.K..s.....R.....................T..~~~~
+
+    ~~~~..s........ob...................T..~~~~~
+
+    ~~~~.T............................T....~~~~~
+
+    ~~~~..T......$......o............T.....~~~~~
+
+    ~~~~~~~.T...........................~~~~~~~~
+
+    ~~~~~~~~~.T................b......~~~~~~~~w~
+
+    ~~w~~~~~~~~~o..................~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~.......~~~~~~~~~~~~~~d~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+  groundColor: 1
+  roadColor: 4
+  startWood: 200
+  startGold: 180
+  startPawns: 3
+  basePopulation: 10
+  castleHp: 1500
+  allowTowerUpgrade: 1
+  towers: 0000000001000000i
+  maxTowerLevel: 2
+  endless: 0
+  protectVillage: 0
+  villageMinAlive: 1
+  firstWavePrep: 50
+  betweenWavePrep: 25
+  waves:
+  - name: "\u0110\u1ED9i ti\xEAn phong"
+    bonusGold: 40
+    groups:
+    - enemy: red_warrior
+      count: 4
+      spawn: 0
+      delay: 0
+      interval: 2.2
+    - enemy: goblin
+      count: 3
+      spawn: 0
+      delay: 7
+      interval: 1.6
+  - name: "Cung th\u1EE7 y\u1EC3m tr\u1EE3"
+    bonusGold: 50
+    groups:
+    - enemy: red_warrior
+      count: 5
+      spawn: 0
+      delay: 0
+      interval: 1.8
+    - enemy: red_archer
+      count: 3
+      spawn: 0
+      delay: 5
+      interval: 2
+    - enemy: goblin
+      count: 4
+      spawn: 0
+      delay: 11
+      interval: 1.2
+  - name: "T\u1ED5ng t\u1EA5n c\xF4ng"
+    bonusGold: 60
+    groups:
+    - enemy: red_warrior
+      count: 6
+      spawn: 0
+      delay: 0
+      interval: 1.5
+    - enemy: goblin_warrior
+      count: 3
+      spawn: 0
+      delay: 5
+      interval: 2
+    - enemy: red_archer
+      count: 4
+      spawn: 0
+      delay: 9
+      interval: 1.6
+    - enemy: goblin
+      count: 6
+      spawn: 0
+      delay: 15
+      interval: 0.8

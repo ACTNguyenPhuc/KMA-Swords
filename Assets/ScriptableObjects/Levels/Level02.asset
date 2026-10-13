@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4626a54e19105b24e88e08abf90699ec, type: 3}
+  m_Name: Level02
+  m_EditorClassIdentifier: Assembly-CSharp::Oath.LevelConfig
+  levelIndex: 2
+  title: "C\xE2y C\u1EA7u G\xE3y"
+  location: "C\xE2y C\u1EA7u \u0110\xE1"
+  description: "D\u1EA3i \u0111\u1EA5t h\u1EB9p nh\u01B0 c\xE2y c\u1EA7u \u0111\xE1 l\xE0 l\u1ED1i duy nh\u1EA5t n\u1ED1i hai \u0111\u1EA3o. Gi\u1EEF c\xE2y c\u1EA7u, \u0111\u1EEBng \u0111\u1EC3 \u0111\u1ECBch tr\xE0n sang b\u1EDD t\xE2y."
+  objective: "Gi\u1EEF c\xE2y c\u1EA7u \u0111\xE1"
+  sceneName: 11_Level02
+  intro:
+  - speaker: Mira
+    text: "C\xE2y c\u1EA7u ph\xEDa b\u1EAFc \u0111\xE3 b\u1ECB ph\xE1 s\u1EADp. Gi\u1EDD d\u1EA3i \u0111\u1EA5t h\u1EB9p n\xE0y l\xE0 con \u0111\u01B0\u1EDDng duy nh\u1EA5t sang b\u1EDD t\xE2y."
+  - speaker: Kael
+    text: "L\u1ED1i c\xE0ng h\u1EB9p, ph\xF2ng tuy\u1EBFn c\xE0ng ch\u1EAFc. Th\u01B0\u01A1ng binh s\u1EBD \u0111\u1EE9ng ch\u1EB7n \u0111\u1EA7u c\u1EA7u, cung th\u1EE7 y\u1EC3m tr\u1EE3 ph\xEDa sau."
+  - speaker: Veyr
+    text: "\u0110\u1ED9i tr\u01B0\u1EDFng c\u1EE7a tri\u1EC1u \u0111\xECnh\u2026 Ng\u01B0\u01A1i gi\u1EEF \u0111\u01B0\u1EE3c m\u1ED9t c\xE2y c\u1EA7u, nh\u01B0ng gi\u1EEF \u0111\u01B0\u1EE3c c\u1EA3 qu\u1EA7n \u0111\u1EA3o \u0111ang m\u1EE5c ru\u1ED7ng sao?"
+  - speaker: Mira
+    text: "H\u1EAFn c\xF2n d\u1EABn theo l\u0169 qu\xE1i v\u1EADt t\u1EEB hang \u0111\u1ED9ng \u2014 ch\u1EA5t nh\u1EDDn v\xE0 b\u1ED9 x\u01B0\u01A1ng. C\u1EA9n th\u1EADn Vua Ch\u1EA5t Nh\u1EDDn, khi ch\u1EBFt n\xF3 t\xE1ch th\xE0nh nhi\u1EC1u con nh\u1ECF!"
+  outro:
+  - speaker: Kael
+    text: "C\xE2y c\u1EA7u v\u1EABn trong tay ch\xFAng ta. Nh\u01B0ng v\xEC sao qu\xE1i v\u1EADt l\u1EA1i nghe l\u1EC7nh C\u1EDD \u0110\u1ECF?"
+  - speaker: Mira
+    text: "Nh\u1EEFng h\xF2n \u0111\u1EA3o b\u1ECB l\xE3ng qu\xEAn \u1EDF ph\xEDa nam\u2026 n\u0103ng l\u01B0\u1EE3ng tinh th\u1EC3 \u1EDF \u0111\xF3 c\u1EA1n ki\u1EC7t, sinh v\u1EADt tr\u1EDF n\xEAn \u0111i\xEAn lo\u1EA1n. D\xE2n l\xE0ng \u1EDF \u0111\xF3 \u0111ang g\u1EB7p nguy."
+  tutorialHints:
+  - "M\u1EB9o: \u0111\u1EB7t <b>Th\u01B0\u01A1ng binh</b> \u1EDF \u0111\u1EA7u c\u1EA7u \u2014 ch\xFAng r\u1EA5t tr\xE2u v\xE0 l\xE0m ch\u1EADm k\u1EBB \u0111\u1ECBch."
+  - "Th\xE1p c\xF3 th\u1EC3 <b>n\xE2ng c\u1EA5p</b> \u0111\u1EC3 b\u1EAFn m\u1EA1nh v\xE0 xa h\u01A1n."
+  - "M\u1EDBi: <b>Th\xE1p Bi S\u1EAFt Gai</b> xuy\xEAn gi\xE1p v\xE0 l\xE0m ch\u1EADm \u2014 kh\u1EAFc ch\u1EBF Ch\u1EA5t nh\u1EDDn \u0111\xE1 v\xE0 X\u01B0\u01A1ng khi\xEAn."
+  map: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~..T....~~~~~~~~~d~~~~~~~~~..T....~~~~~~~
+
+    ~~~~~~..T.o.T.b..~~~~~~~~~~~~~~~.........T.~~~~~
+
+    ~~~...T...............~~~~~..................~~~
+
+    ~~~.T..............~~~~~w~~~~~..........##.To~~~
+
+    ~~~.............o...~~~~~~~~~..========......o~~
+
+    ~~.T.$.........##....~~~~~w~~..========.......~~
+
+    ~~...................~~w~~~~...==....==....oT..~
+
+    ~~o.....C............~~~~~~~...==....==........~
+
+    ~~........=======================....========S.~
+
+    ~~........======================..b..=========.~
+
+    ~~bT.................~~~~~~~............$...b..~
+
+    ~~.........##..R.....~~~~w~~.....##............~
+
+    ~~.T..Ks........##...~w~~~~~.......^^^^^....T..~
+
+    ~~.........b.........~~~~~~~~......^^^^^...b..~~
+
+    ~~~.Ts........s.....~~~~~~~~~..T..............~~
+
+    ~~~..........$.....~~~~~~~~~~~............T.b~~~
+
+    ~~~...T.......T.b..~~~~~~~~~~~...T...........~~~
+
+    ~~~~~~...T.......~~~~~~~~~~~~~~~.......T...~~~~~
+
+    ~~~~~~~~.......~~~~~~~~~~~~~~~~~~~.......~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+  groundColor: 2
+  roadColor: 4
+  startWood: 180
+  startGold: 230
+  startPawns: 2
+  basePopulation: 10
+  castleHp: 1600
+  allowTowerUpgrade: 1
+  towers: 000000000100000002000000i
+  maxTowerLevel: 2
+  endless: 0
+  protectVillage: 0
+  villageMinAlive: 1
+  firstWavePrep: 45
+  betweenWavePrep: 25
+  waves:
+  - name: "L\u0169 ch\u1EA5t nh\u1EDDn"
+    bonusGold: 45
+    groups:
+    - enemy: slime
+      count: 6
+      spawn: 0
+      delay: 0
+      interval: 1.4
+    - enemy: goblin
+      count: 4
+      spawn: 0
+      delay: 8
+      interval: 1.2
+  - name: "\u0110\u1EA1o qu\xE2n x\u01B0\u01A1ng"
+    bonusGold: 55
+    groups:
+    - enemy: skull
+      count: 6
+      spawn: 0
+      delay: 0
+      interval: 1.4
+    - enemy: skull_archer
+      count: 3
+      spawn: 0
+      delay: 6
+      interval: 2
+    - enemy: red_lancer
+      count: 2
+      spawn: 0
+      delay: 12
+      interval: 3
+  - name: "T\u01B0\u1EDDng khi\xEAn"
+    bonusGold: 65
+    groups:
+    - enemy: slime_stone
+      count: 3
+      spawn: 0
+      delay: 0
+      interval: 2.5
+    - enemy: red_lancer
+      count: 4
+      spawn: 0
+      delay: 4
+      interval: 2
+    - enemy: red_warrior
+      count: 5
+      spawn: 0
+      delay: 10
+      interval: 1.4
+    - enemy: goblin_archer
+      count: 4
+      spawn: 0
+      delay: 14
+      interval: 1.6
+  - name: "Vua Ch\u1EA5t Nh\u1EDDn"
+    bonusGold: 80
+    groups:
+    - enemy: skull_warrior
+      count: 4
+      spawn: 0
+      delay: 0
+      interval: 2
+    - enemy: skull
+      count: 8
+      spawn: 0
+      delay: 6
+      interval: 1
+    - enemy: red_archer
+      count: 4
+      spawn: 0
+      delay: 10
+      interval: 1.6
+    - enemy: slime_king
+      count: 1
+      spawn: 0
+      delay: 22
+      interval: 1
